@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.986);
+    color: white;
+    position: inline-block;
+
+
+}
+
+#d9 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(19, 58, 255);
+    margin-left: 3px;
+    width: 38px;
+}
+
+.container a {
+    width: 150px;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    background-color: rgba(94, 99, 86, 0.776);
+}
+
+#d5 {
+    margin-left: 10px;
+    margin-left: 10px;
+    font-size: x-large;
+    width: 150px;
+}
+
+.c3 {
+
+    width: 70%;
+    margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+
+#d6 {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+#d2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#d3 {
+    margin-right: 10px;
+    width: 30%;
+}
+
+#d4 {
+    width: 15px;
+
+}
+
+.c1 a {
+    margin: 5px;
+    color: blue;
+    text-decoration: none;
+
+}
+
+.c1 a:hover {
+    text-decoration: underline;
+    color: rgba(244, 179, 95, 0.822);
+}
+
+
+.c2 {
+
+    line-height: 40px;
+    margin-bottom: 5px;
+    background-color: rgba(27, 28, 25, 0.317);
+}
+
+.footer {
+    box-shadow: 5px 5px 5px 5px rgb(60, 0, 255);
+    position: fixed;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.429);
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+@keyframes  animation{
+0% {background-color: black;}
+25% {background-color: rgb(14, 10, 81);}
+50% {background-color: rgb(168, 3, 3);}
+75% {background-color: rgb(211, 20, 154);}
+100% {background-color: rgb(3, 74, 39);}
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.429);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+#d8:hover {
+
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+
